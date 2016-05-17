@@ -1,0 +1,398 @@
+body,div{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: url("./img/Floor.jpg");
+}
+
+a{
+    text-decoration:none;
+    color:#fff;
+}
+
+#wrap{
+    position:absolute;
+    background: url("./img/Table.png") no-repeat top center;
+    background-size: 100%;
+    width:100%;
+    min-height: 650px;
+}
+
+#dealer,#user{
+    position:absolute;
+    left:50%;
+    margin-left:-70px;
+    top:40px;
+    min-width: 700px;
+}
+
+#dealerSecondCard{
+    width:68px;
+    height:99px;
+    background-color: #fff;
+    display:none;
+}
+
+
+#user{
+    margin-top:15%;
+}
+
+.float1{
+    float:left;
+}
+.float{
+    float:left;
+}
+
+#dealerAdd,#userAdd{
+    float:left;
+    width:60px;
+    height:60px;
+    border-radius: 30px;
+    background-color: antiquewhite;
+    line-height: 60px;
+    text-align: center;
+    margin-top:20px;
+    margin-left:80px;
+    display:none;
+}
+
+#dealer img,#user img,#shuffle img{
+    width:68px;
+    height:99px;
+}
+
+#shuffle{
+    display:none;
+    left:50%;
+    top:40%;
+    margin-top:-50px;
+    margin-left:-68px;
+    position:absolute;
+}
+
+#cards1,#cards2{
+    width:68px;
+    height:99px;
+    background-color: #fff;
+    float:left;
+    position:absolute;
+    margin-left: 0;
+}
+
+#cards2{
+    z-index: 1;
+}
+
+#actions{
+    position:absolute;
+    left:50%;
+    margin-left:160px;
+    margin-top:580px;
+}
+
+.button{
+    background-image: url("./img/Actions.png");
+    width:60px;
+    height:60px;
+    border-radius: 30px;
+    z-index: 100;
+    display:block;
+    float:left;
+    position:absolute;
+}
+
+#hit{
+    background-position: -60px 0;
+}
+
+#stand{
+    background-position: 0 0;
+    left:80px;
+    top:-21px;
+}
+
+#double{
+    background-position: -180px 0;
+    left:160px;
+    top:-60px;
+}
+
+#spilt{
+    background-position: -120px 0;
+    left:230px;
+    top:-110px;
+}
+
+#surrender{
+    background-position: -240px 0;
+    left:300px;
+    top:-170px;
+}
+
+#bets{
+    position:absolute;
+    left:50%;
+    margin-left:-220px;
+    margin-top:580px;
+}
+.bet{
+    background-image: url("./img/bets.png");
+    width:60px;
+    height:60px;
+    border-radius: 30px;
+    /*z-index: 100;*/
+    display:block;
+    position:absolute;
+}
+
+/*用于改变透明度*/
+.opacity{
+    opacity:.3;
+}
+
+#bet5{
+    background-position: 0 0;
+}
+
+#bet25{
+    background-position: -66px 0;
+    left:-80px;
+    top:-21px;
+    /*opacity:.3;*/
+}
+
+#bet50{
+    background-position: -132px 0;
+    left:-160px;
+    top:-60px;
+    /*opacity:.3;*/
+}
+
+#bet100{
+    background-position: -198px 0;
+    left:-230px;
+    top:-110px;
+    /*opacity:.3;*/
+}
+
+#bet500{
+    background-position: -264px 0;
+    left:-300px;
+    top:-170px;
+    /*opacity:.3;*/
+}
+
+#placeBets1{
+    position:absolute;
+    left:50%;
+    margin-left:-40px;
+    /*margin-top:30%;*/
+    top:60%;
+    width:70px;
+    height:70px;
+    border-radius: 40px;
+    border: #d6d6d6 solid 5px;
+    /*background-color: rgb(36, 101, 49);*/
+}
+
+#placeBets{
+    position:absolute;
+    left:50%;
+    /*margin-left:-40px;*/
+    /*margin-top:30%;*/
+    top:60%;
+    /*margin-top:5px;*/
+
+}
+
+#placeBets2{
+    position:absolute;
+    left:50%;
+    margin-left:-25px;
+    top:60%;
+    /*margin-top:5px;*/
+}
+
+#placeBets3{
+    position:absolute;
+    left:50%;
+    margin-left:25px;
+    top:60%;
+    /*margin-top:5px;*/
+}
+.addBet{
+    background-image: url("./img/bets_sm.png");
+    width:25px;
+    height:25px;
+    border-radius: +12.5px;
+    position:absolute;
+    left:50%;
+    margin-left:-12.5px;
+    margin-top:+22.5px;
+}
+
+#doubleBets{
+    background-color: antiquewhite;
+    left:50%;
+    top:50%;
+    margin-top:25px;
+
+}
+
+.fiv{
+    background-position: 0 0;
+}
+
+.twf{
+    background-position: -28px 0;
+}
+
+.fit{
+    background-position: -55px 0;
+}
+
+.onh{
+    background-position: -83px 0;
+}
+
+.fih{
+    background-position: -110px 0;
+}
+
+/*#five1{*/
+    /*margin-top:22px;*/
+/*}*/
+
+#allBets{
+    left:50%;
+    margin-left:-500px;
+    margin-top:580px;
+    position:absolute;
+    color:#d6d6d6;
+    font-size: 30px;
+}
+
+#deal{
+    width:160px;
+    height:50px;
+    border-radius: 25px;
+    /*border-width: 2px;*/
+    border: solid #fff 2px;
+    /*border-color:#fff;*/
+    position:absolute;
+    left:50%;
+    margin-left:-80px;
+    margin-top:590px;
+    color:#fff;
+    font-size:30px;
+    line-height: 50px;
+    text-align: center;
+}
+
+#insurance{
+    width:160px;
+    height:50px;
+    border-radius: 25px;
+    /*border-width: 2px;*/
+    border: solid #fff 2px;
+    /*border-color:#fff;*/
+    position:absolute;
+    left:50%;
+    margin-left:-80px;
+    margin-top:590px;
+    color:#fff;
+    font-size:24px;
+    line-height: 50px;
+    text-align: center;
+    display:none;
+}
+
+#insuranceYes{
+    float:left;
+    margin-left: 30px;
+}
+
+#insuranceNo{
+    float:right;
+    margin-right:30px;
+}
+#alert{
+    position:absolute;
+    display:block;
+    width:300px;
+    height:120px;
+    left:50%;
+    margin-left:-150px;
+    margin-top:170px;
+    border-radius: 60px;
+    border:rgb(218,236,217) solid 3px;
+    /*border-style: solid;*/
+    /*border-width: 3px;*/
+    filter: alpha(opacity=30);
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.3);
+    line-height:120px;
+    text-align:center;
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+/*.button{
+    float:right;
+    margin-left:30px;
+    margin-top:10%;
+    position:absolute;
+    width:60px;
+    height:60px;
+    border-radius: 30px;
+    line-height: 60px;
+    !*background-color: antiquewhite;*!
+    text-align: center;
+    font-size: smaller;
+}*/
+
+/*#actions{*/
+    /*float:right;*/
+/*}*/
+
+/*#hit{*/
+    /*left:50%;*/
+    /*bottom:0;*/
+    /*margin-left:180px;*/
+/*}*/
+/*#stand{*/
+    /*left:50%;*/
+    /*bottom:0;*/
+    /*margin-left:260px;*/
+/*}*/
+/*#double{*/
+    /*left:50%;*/
+    /*bottom:0;*/
+    /*margin-left:340px;*/
+
+/*}*/
+/*#insurance{*/
+    /*left:50%;*/
+    /*bottom:0;*/
+    /*margin-left:420px;*/
+/*}*/
+/*#surrender{*/
+    /*left:50%;*/
+    /*bottom:0;*/
+    /*margin-left:500px;*/
+/*}*/
+
+/*#hit{*/
+    /*clear:both;*/
+/*}*/

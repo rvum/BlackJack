@@ -1,1 +1,53 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>black jack</title>
+    <link href="index.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="wrap">
+    <div id="dealer">
+        <div id="dealerFirstCard" class=" whiteCard float1"></div>
+        <div id="dealerSecondCard" class="float1"></div>
+        <div id="dealerAdd"></div>
+    </div>
+    <div id="user">
+        <div id="userFirstCard" class="float1"></div>
+        <div id="userSecondCard" class="float1"></div>
+        <div id="userAdd"></div>
+    </div>
+    <div id="shuffle">
+        <div id="cards1"><img src="img/Back.png"></div>
+        <div id="cards2"><img src="img/Back.png"></div>
+    </div>
+    <div id="actions">
+        <a href="#" id="hit" class="button opacity"></a>
+        <a href="#" id="stand" class="button opacity"></a>
+        <a href="#" id="double" class="button opacity"></a>
+        <a href="#" id="spilt" class="button opacity"></a>
+        <a href="#" id="surrender" class="button opacity"></a>
+    </div>
+    <div id="bets">
+        <a href="#" id="bet5" class="bet"></a>
+        <a href="#" id="bet25" class="bet"></a>
+        <a href="#" id="bet50" class="bet"></a>
+        <a href="#" id="bet100" class="bet"></a>
+        <a href="#" id="bet500" class="bet opacity"></a>
+    </div>
+    <div id="placeBets1"></div>
+    <div id="placeBets"></div>
+    <div id="placeBets2"></div>
+    <div id="placeBets3"></div>
+    <div id="allBets">$ 2000</div>
+    <a href="#" id="sureYourDeal"><div id="deal">Deal</div></a>
+    <div href="#" id="insurance">
+        <a id="insuranceYes" class="insur" href="#">YES</a>
+        <a id="insuranceNo" class="insur" href="#">NO</a>
+    </div>
+    <div id="alerts">
+    </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
